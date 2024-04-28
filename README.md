@@ -9,3 +9,8 @@
 ### Control System Webpage
 
 ![Control system webpage image](https://github.com/m379y/Remote-control-system-via-website/blob/main/Banner/Control-System.PNG)
+
+### The robot car is equipped with sensors, and based on the data received from these sensors, we will be able to control various aspects of the car through the website. This includes adjusting the speed of the fans and wipers, regulating the heating system inside the vehicle, and ensuring it stops to avoid collisions based on data from the proximity sensor. In summary, we will have full control over the robot car.
+
+
+
