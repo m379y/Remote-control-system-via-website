@@ -1,0 +1,278 @@
+
+*{
+    box-sizing: border-box;
+    
+    margin: 0;
+}
+body,html{
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    height: 100%;
+    background-image: url(mercedes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+    
+.Main{
+    background-color: white;
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+.Top-left{
+    border: 5px solid brown;
+    background-image: url(heat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    float: left;  
+    background-position: center;
+}
+.Heat{
+   
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    background-color: rgba(204, 146, 146, 0.5);
+    
+}
+.Fan{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: 40px;
+    color: wheat;
+    width: 450px;
+    white-space: nowrap;
+    background-color: brown;
+    border-radius: 30rem;
+
+}
+.Hot{
+    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 40px;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 450px;
+    border-radius: 30rem;
+    
+}
+
+.Light{
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(204, 146, 146, 0.5);
+}
+.Headlight{
+    background-color: brown;
+    font-weight: bold;
+    width: 550px;
+    margin-top: 100px;
+    margin-left: 240px;
+    white-space: nowrap;
+    font-size: 50px;
+    display: flex;
+    color: wheat;
+    border-radius: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.Wetness{
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(204, 146, 146, 0.5);
+}
+.Wiper{
+    background-color: brown;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30rem;
+    font-weight: bold;
+    width: 600px;
+    margin-left: 250px;
+    margin-top: 100px;
+    font-size: 50px;
+    white-space: nowrap;
+    
+    
+}
+.Distance{
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(204, 146, 146, 0.5);
+}
+.Stop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 100px;
+    color: white;
+    
+}
+.Top-right{
+    border: 5px solid brown;
+    width: 50%;
+    height: 50%;
+    float: right;
+    background-image: url(rain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Bottom-left{
+    
+    border: 5px solid brown;
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-image: url(light.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   
+}
+.Bottom-right{
+    border: 5px solid brown;
+    width: 50%;
+    height: 50%;
+    float: right;
+    background-image: url(duba.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transform:rotate(45deg);
+    display:flex;
+    flex-flow:row wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    
+}
+
+  
+  .circle div{
+    height:150px;
+    width:150px;
+  }
+  
+  .circle div:nth-child(1){
+    
+    border-radius:150px 0 0 0;
+  }
+  .circle div:nth-child(2){
+    
+    border-radius:0 150px 0 0;
+    
+  }
+  .circle div:nth-child(3){
+    
+    border-radius:0 0 0 150px;
+  }
+  .circle div:nth-child(4){
+    
+    border-radius:0 0 150px 0;
+  }
+  img{
+    padding: 0;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+  }
+.sag{
+    transform: rotate(-45deg);
+    
+    
+    
+}
+.yukari{
+    transform: rotate(-135deg);
+}
+.sol{
+    transform: rotate(135deg);
+    
+    
+}
+.asagi{
+    transform: rotate(45deg);    
+}
+.btn{
+    text-decoration: none;
+}
+.btn1{
+    background-color: #182747;
+    color: white;
+    opacity: 0.7;
+}
+.btn1:hover{
+    background-color: blue;
+    opacity: 1;
+}
+.btn2{
+    background-color: #182747;
+    color: white;
+    opacity: 0.7;
+}
+.btn2:hover{
+    background-color: purple;
+    opacity: 1;
+}
+.btn3{
+    background-color: #182747;
+    color: white;
+    opacity: 0.7;
+}
+.btn3:hover{
+    background-color: red;
+    opacity: 1;
+}
+.stop{
+    
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+}
+.stop:hover{
+    color: yellow;
+}
+
+
+
